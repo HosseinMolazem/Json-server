@@ -1,0 +1,53 @@
+Hello every body  you can make Api with json server very easy 
+
+
+Step 1 =>
+install json server 
+
+Step2=>
+create db.json    file in project 
+
+
+Step3=>
+create index.js    file in project  and   in file =>
+
+const jsonServer = require("json-server"); // importing json-server library
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 8080; //  chose port from here like 8080, 3001
+
+server.use(middlewares);
+server.use(router);
+
+server.listen(port);
+
+
+
+Step4=>
+
+add Script into package.json 
+"Start":"node index.js"
+
+
+Step5=>
+create repostory git hub and add file to git hub 
+
+
+
+Step 6=>
+
+Go to website render.com and create accont 
+and webservice and conect to git hub and select repostory
+
+
+
+
+
+
+use https://test-qp1u.onrender.com/
+
+
+
+
+
