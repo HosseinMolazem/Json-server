@@ -2,37 +2,45 @@
 
     "food": [{
 
-            "id": "1",
-            "name": " Pizza",
-            "incres": ["eggs,bread"],
-            "time": "20Min",
-            "price": "2000"
+            "id": 1,
+            "name": "Pizza",
+            "ingredients": ["Tomato Sauce", "Cheese", "Meat", "Bell Pepper"],
+            "price": 15000,
+            "description": "Delicious pizza with fresh and tasty ingredients"
 
         }
 
         , {
 
-            "id": "1",
-            "name": " Pizza",
-            "incres": ["eggs,bread"],
-            "time": "20Min",
-            "price": "2000"
+            "id": 2,
+            "name": "Kebab",
+            "ingredients": ["Lamb Meat", "Sauce", "Onion", "Salt"],
+            "price": 20000,
+            "description": "Tasty kebab with a unique flavor"
 
         }, {
 
-            "id": "1",
-            "name": " Pizza",
-            "incres": ["eggs,bread"],
-            "time": "20Min",
-            "price": "2000"
+            "id": 3,
+            "name": "Pasta",
+            "ingredients": ["Macaroni", "Cheese Sauce", "Tomato", "Red Pepper"],
+            "price": 18000,
+            "description": "Italian pasta with a delightful taste and fresh ingredients"
 
         }, {
 
-            "id": "1",
-            "name": " Pizza",
-            "incres": ["eggs,bread"],
-            "time": "20Min",
-            "price": "2000"
+            "id": 4,
+            "name": "Mixed Salad",
+            "ingredients": ["Cucumber", "Tomato", "Onion", "Special Dressing"],
+            "price": 12000,
+            "description": "Fresh and green salad with an amazing flavor"
+
+        }, {
+
+            "id": 5,
+            "name": "Burger",
+            "ingredients": ["Beef Patty", "Cheddar Cheese", "Pickles", "Ketchup"],
+            "price": 17000,
+            "description": "Delicious and savory burger with fresh ingredients"
 
         }
 
